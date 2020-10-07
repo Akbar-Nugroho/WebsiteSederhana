@@ -1,0 +1,94 @@
+body {
+	margin: 0; 
+	font-family: 
+	sans-serif;
+}
+
+.header {
+	margin: 10px; 
+	color: white; 
+	background: green; 
+	height: 70px;
+}
+
+.logo {
+	float: left; 
+	padding-left: 25px; 
+}
+
+.navbar {
+	float: right; 
+	padding-right: 10px;
+}
+
+.navbar ul{
+	list-style: none; 
+	padding-top: 10px;
+}
+
+.navbar ul li{
+	display: inline; 
+	margin: 10px;
+}
+
+.navbar ul li a{
+	text-decoration: none; 
+	color: white;
+}
+
+.navbar ul li a:hover {
+	border-bottom: 2px solid white;
+}
+
+.gambar {
+	width: 85%; 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	margin: auto;
+} 
+
+.foto img{
+	width: 300px;
+}
+
+.foto {
+	border: 3px solid black; 
+	margin: 20px; 
+	text-align: center;
+}
+
+.foto a{
+	border: 1px; 
+	padding: 8px; 
+	color: white; 
+	background: green; 
+	text-decoration: none; 
+	border-radius: 30px; 
+	cursor: pointer;
+}
+
+.foto a:hover {
+	background: red;
+}	
+
+.foto h1{
+	font-size: 20px;
+}
+
+.foto p{
+	font-size: 18px;
+	color: red;
+}
+
+.footer {
+	text-align: center; 
+	margin: 10px; 
+	color: white; 
+	background: green;
+	 height: 70px;
+	}
+
+.footer h4{
+	padding-top: 25px;
+}
+
